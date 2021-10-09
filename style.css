@@ -1,0 +1,137 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 1品番ごとのBOX */
+container {
+    display: flex;
+    text-align: center;
+    width: 50%;
+}
+
+/* 商品のデリバリ− */
+#delivery {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    border-bottom: 2px solid black; 
+    text-align: left;  
+}
+ 
+/* 商品の型番 */
+h1 {
+    margin-right: 7%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 商品名＆上代価格 */
+h3 {
+    margin-right: 10%;
+}
+
+/* 型番と品名と上代のディテール */
+.item_number {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    align-items: center;
+    border-bottom: black 1px dashed;
+}
+
+/* ファブリックとサイズは共通指定 */
+.material {
+    margin-right: 3%;
+    background-color: rgb(78, 74, 74);
+    color: cornsilk;
+    width: 100px;
+}
+
+/* 品質表示部分 */
+.fabric {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+
+/* 品質表示、サイズ表記の間隔 */
+.fabric p {
+    margin-bottom: 1px;
+}
+
+/* ザイズ表記部分 */
+.size {
+    width: 92%;
+    display: flex;
+    margin-left:5%;
+    border-bottom: 2px solid black;
+}
+
+/* 品質表示、サイズ表記の間隔 */
+.size p {
+    margin-top: 1px;
+}
+
+/* 商品動画 */
+video {
+    margin-top: 2%;
+}
+
+/* footer */
+.color_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* カラーバリエーション */
+h4 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+div {
+margin-right: 2%;
+}
+
+.item_color {
+    width: 96%;
+    margin-left: 2%;
+}
+/* カラー展開の写真 */
+.item_color img {
+    margin-left: 1%;
+    width: 22%;
+}
+
+/* chat コメント表示*/
+.chat_koment{ 
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(78, 74, 74);
+    color: floralwhite;
+}
+
+.name{
+    margin-bottom: 1%;
+}
+
+.text{
+    margin:0 1%;
+}
+
+.send {
+    margin-bottom: 1%;
+}
+/* chatボックス */
+.output{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    border: black 2px solid;
+    text-align: left;
+    background: rgb(240, 239, 239);
+    font-size: 20px;
+}
+
