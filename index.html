@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>firebase</title>
+    <title>katarogu</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
 </head>
+
+<div id="new_arrival">
+    <img src="img/2021_1.png" alt="絵型表紙">
+    <div class="title">
+        <h1>LUEUF 22SS vol03 JUNE EXHIBITION</h1>
+    </div>
+</div>
 
 <body>
     <container>
@@ -23,7 +30,7 @@
                     <!-- 商品名 -->
                     <h3>cotton Linen Knit Pullover</h3>
                     <!-- 上代価格 -->
-                    <h3>Price．¥8,900</h3>
+                    <h3>Price．¥12,800</h3>
                 </div>
                 <!--  品質欄 -->
                 <div class="fabric_size">
@@ -48,26 +55,51 @@
             <footer>
                 <div class="item">
                     <div class="color_nav">
-                        <h4>Color Variation</h4>
+                        <h4>item detail</h4>
                         <div>身長 160cm</div>
                     </div>
-                    <div class="item_color">
-                        <img src="img/92101-1.jpg" alt="商品カラー">
-                        <img src="img/92101-2.jpg" alt="商品カラー">
-                        <img src="img/92101-3.jpg" alt="商品カラー">
-                        <img src="img/92101-4.jpg" alt="商品カラー">
+                    <div class="detail">
+                        <a href=""><img src="img/92103-7.jpg" alt=""></a>
+                        <a href=""><img src="img/92114-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92117-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92118-5.jpg" alt=""></a>
+                    </div>
+                    <div class="modal">
+                        <div class="bigimg">
+                            <img src="" alt="original-img">
+                        </div>
+                        <P class="close-btn"><a href="">✖️</a></P>
                     </div>
                 </div>
-                <div class="chat">
-                    <P class="chat_koment">商品に関するお問い合わせは、下記チャットよりお客様共有させて頂きます。</P>
-                    <!-- 入力場所 -->
-                    <label for="name">name</label>
-                    <input class="name" placeholder="ニックネーム可" type="text" id="name_1">
-                    <textarea name="" placeholder="お問い合わせ内容を入力して下さい。" class="text" id="text_1" cols="65"
-                        rows="1"></textarea>
-                    <button class="send" id="send_1">▶</button>
-                    <!-- データ出力場所 -->
-                    <div class="output" id="output_1" style="overflow: auto;height: 180px;"></div>
+                <h4>Color Variation</h4>
+                <div class="item_color">
+                    <div class="count">
+                        <img src="img/92101-1.jpg" alt="商品カラー">
+                        <P class="color">WHT</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-2.jpg" alt="商品カラー">
+                        <P class="color">BEG</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-3.jpg" alt="商品カラー">
+                        <P class="color">RED</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BRN</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BLK</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                </div>
+                <P class="comment">ご希望の数量をご指定ください。</P>
                 </div>
                 </div>
             </footer>
@@ -109,27 +141,51 @@
             <footer>
                 <div class="item">
                     <div class="color_nav">
-                        <h4>Color Variation</h4>
+                        <h4>item detail</h4>
                         <div>身長 160cm</div>
                     </div>
-                    <div class="item_color">
-                        <img src="img/92101-1.jpg" alt="商品カラー">
-                        <img src="img/92101-2.jpg" alt="商品カラー">
-                        <img src="img/92101-3.jpg" alt="商品カラー">
-                        <img src="img/92101-4.jpg" alt="商品カラー">
+                    <div class="detail">
+                        <a href=""><img src="img/92103-7.jpg" alt=""></a>
+                        <a href=""><img src="img/92114-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92117-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92118-5.jpg" alt=""></a>
+                    </div>
+                    <div class="modal">
+                        <div class="bigimg">
+                            <img src="" alt="">
+                        </div>
+                        <P class="close-btn"><a href="">✖️</a></P>
                     </div>
                 </div>
-                <div class="chat">
-                    <P class="chat_koment">商品に関するお問い合わせは、下記チャットよりお客様共有させて頂きます。</P>
-                    <!-- 入力場所 -->
-                    <label for="name">name</label>
-                    <input class="name" placeholder="ニックネーム可" type="text" id="name_2">
-                    <textarea name="" placeholder="お問い合わせ内容を入力して下さい。" class="text" id="text_2" cols="65"
-                        rows="1"></textarea>
-                    <button class="send" id="send_2">▶</button>
-                    <!-- データ出力場所 -->
-                    <div class="output" id="output_2" style="overflow: auto;height: 180px;"></div>
+                <h4>Color Variation</h4>
+                <div class="item_color">
+                    <div class="count">
+                        <img src="img/92101-1.jpg" alt="商品カラー">
+                        <P class="color">WHT</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-2.jpg" alt="商品カラー">
+                        <P class="color">BEG</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-3.jpg" alt="商品カラー">
+                        <P class="color">RED</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BRN</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BLK</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
                 </div>
+                <P class="comment">ご希望の数量をご指定ください。</P>
                 </div>
             </footer>
         </section>
@@ -171,27 +227,49 @@
             <footer>
                 <div class="item">
                     <div class="color_nav">
-                        <h4>Color Variation</h4>
+                        <h4>item detail</h4>
                         <div>身長 160cm</div>
                     </div>
-                    <div class="item_color">
-                        <img src="img/92101-1.jpg" alt="商品カラー">
-                        <img src="img/92101-2.jpg" alt="商品カラー">
-                        <img src="img/92101-3.jpg" alt="商品カラー">
-                        <img src="img/92101-4.jpg" alt="商品カラー">
+                    <div class="detail">
+                        <a href=""><img src="img/92103-7.jpg" alt=""></a>
+                        <a href=""><img src="img/92114-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92117-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92118-5.jpg" alt=""></a>
+                    </div>
+                    <div class="modal">
+                        <div class="bigimg"><img src="" alt=""></div>
+                        <P class="close-btn"><a href="">✖️</a></P>
                     </div>
                 </div>
-                <div class="chat">
-                    <P class="chat_koment">商品に関するお問い合わせは、下記チャットよりお客様共有させて頂きます。</P>
-                    <!-- 入力場所 -->
-                    <label for="name">name</label>
-                    <input class="name" placeholder="ニックネーム可" type="text" id="name_3">
-                    <textarea name="" placeholder="お問い合わせ内容を入力して下さい。" class="text" id="text_3" cols="65"
-                        rows="1"></textarea>
-                    <button class="send" id="send_3">▶</button>
-                    <!-- データ出力場所 -->
-                    <div class="output" id="output_3" style="overflow: auto;height: 180px;"></div>
+                <h4>Color Variation</h4>
+                <div class="item_color">
+                    <div class="count">
+                        <img src="img/92101-1.jpg" alt="商品カラー">
+                        <P class="color">WHT</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-2.jpg" alt="商品カラー">
+                        <P class="color">BEG</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-3.jpg" alt="商品カラー">
+                        <P class="color">RED</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BRN</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BLK</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
                 </div>
+                <P class="comment">ご希望の数量をご指定ください。</P>
                 </div>
             </footer>
         </section>
@@ -232,86 +310,55 @@
             <footer>
                 <div class="item">
                     <div class="color_nav">
-                        <h4>Color Variation</h4>
+                        <h4>item detail</h4>
                         <div>身長 160cm</div>
                     </div>
-                    <div class="item_color">
-                        <img src="img/92101-1.jpg" alt="商品カラー">
-                        <img src="img/92101-2.jpg" alt="商品カラー">
-                        <img src="img/92101-3.jpg" alt="商品カラー">
-                        <img src="img/92101-4.jpg" alt="商品カラー">
+                    <div class="detail">
+                        <a href=""><img src="img/92103-7.jpg" alt=""></a>
+                        <a href=""><img src="img/92114-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92117-6.jpg" alt=""></a>
+                        <a href=""><img src="img/92118-5.jpg" alt=""></a>
+                    </div>
+                    <div class="modal">
+                        <div class="bigimg"><img src="" alt=""></div>
+                        <P class="close-btn"><a href="">✖️</a></P>
                     </div>
                 </div>
-                <div class="chat">
-                    <P class="chat_koment">商品に関するお問い合わせは、下記チャットよりお客様共有させて頂きます。</P>
-                    <!-- 入力場所 -->
-                    <label for="name">name</label>
-                    <input class="name" placeholder="ニックネーム可" type="text" id="name_4">
-                    <textarea name="" placeholder="お問い合わせ内容を入力して下さい。" class="text" id="text_4" cols="65"
-                        rows="1"></textarea>
-                    <button class="send" id="send_4">▶</button>
-                    <!-- データ出力場所 -->
-                    <div class="output" id="output_4" style="overflow: auto;height: 180px;"></div>
+                <h4>Color Variation</h4>
+                <div class="item_color">
+                    <div class="count">
+                        <img src="img/92101-1.jpg" alt="商品カラー">
+                        <P class="color">WHT</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-2.jpg" alt="商品カラー">
+                        <P class="color">BEG</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-3.jpg" alt="商品カラー">
+                        <P class="color">RED</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BRN</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
+                    <div class="count">
+                        <img src="img/92101-4.jpg" alt="商品カラー">
+                        <P class="color">BLK</P>
+                        <input type="number" min="0" max="100" step="1">
+                    </div>
                 </div>
+                <P class="comment">ご希望の数量をご指定ください。</P>
                 </div>
             </footer>
         </section>
     </container>
 
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js";
-        import { getDatabase, ref, push, set, onChildAdded, remove, }
-            from "https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js";
-
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "",
-            authDomain: "sample-edca6.firebaseapp.com",
-            projectId: "sample-edca6",
-            storageBucket: "sample-edca6.appspot.com",
-            messagingSenderId: "135039097654",
-            appId: "1:135039097654:web:187291e5fba179d0257197"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const db = getDatabase(app);
-        const dbRef = ref(db, "chat");
-
-        $("#send_1").on("click", function () {
-            const msg = {
-                name_1: $("#name_1").val(),
-                text_1: $("#text_1").val(),
-            }
-            const newPostRef = push(dbRef);
-            set(newPostRef, msg);
-            $('#text_1').val('');
-        });
-
-        onChildAdded(dbRef, function (data) {
-            const msg = data.val();
-            let h = '<p>';
-            h += msg.name_1;
-            h += '<br>';
-            h += msg.text_1;
-            h += '<br>';
-            h += '</P>';
-            $("#output_1").prepend(h);
-        })
-
-        $(".text").on('input', function () {
-            if ($(this).outerHeight() > this.scrollHeight) {
-                $(this).height(1)
-            }
-            while ($(this).outerHeight() < this.scrollHeight) {
-                $(this).height($(this).height() + 1)
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
