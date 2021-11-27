@@ -1,0 +1,45 @@
+/* 背景 */
+#login img{
+    position: relative;
+    width: 100%;
+}
+
+/* sign in */
+h2 {
+	margin-bottom: 7px;
+}
+
+/* ログインレイヤー */
+.login {
+	width: 100%;
+    font-size: 150%;
+	color: rgb(241, 241, 234);
+	text-align: center;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-transform: uppercase;
+}
+
+/*ログイン入力フォーム*/
+.form-control{
+    font-size: 120%;
+    margin: 0.5%;
+    border-radius: 10px;
+}
+
+/*login */
+.float{
+	color: #000;
+    font-size: 20px;
+	border-radius: 5px;
+	margin-top: 30px;
+	background-color:rgb(240, 202, 14);
+	width: 140px;
+}
+
+/* 新規アカウント作成 */
+P a{
+	color: rgb(240, 202, 14);
+}
